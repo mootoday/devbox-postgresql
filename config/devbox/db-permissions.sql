@@ -1,0 +1,6 @@
+-- TODO: Update this file as required for your project
+--
+DROP ROLE IF EXISTS dev;
+
+CREATE USER dev WITH CREATEDB CREATEROLE LOGIN;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO dev;

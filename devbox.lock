@@ -1,0 +1,114 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "postgresql@latest": {
+      "last_modified": "2024-07-26T16:03:07Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/9014875e6f995a84dd72072e5ef73313e5665faa#postgresql",
+      "source": "devbox-search",
+      "version": "15.7",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g709813dxhgyjwsz4zwqyqb2fxvz9n1l-postgresql-15.7",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/yww09ykk70wjm4ay43yh350zd77i3522-postgresql-15.7-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/4mdg50lfjh1dancf2w9aqjl3fjg1w5wv-postgresql-15.7-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/7hmvsyvcqrr46v5440c5k137qc4vwz73-postgresql-15.7-lib"
+            }
+          ],
+          "store_path": "/nix/store/g709813dxhgyjwsz4zwqyqb2fxvz9n1l-postgresql-15.7"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ggj83wgyjarkcxn99igsband7rq4bnaq-postgresql-15.7",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/ri1fbcw75xj3zp5yp8dknxw484b7fzp5-postgresql-15.7-man",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/z2cnvgq78rallhc03p8wy9zdqq7fpsr2-postgresql-15.7-debug"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/naz9z3jj54lad70lkq8zkwdk59m3vm52-postgresql-15.7-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/zir7zh3j79fd80zwxkcn6y29aps437dc-postgresql-15.7-lib"
+            }
+          ],
+          "store_path": "/nix/store/ggj83wgyjarkcxn99igsband7rq4bnaq-postgresql-15.7"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qvhjnll3n3d1va7rxlh1yd348gqwy4v1-postgresql-15.7",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/5mmzk97ppd9b6m2239b4xkwc853116mf-postgresql-15.7-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/jwp1aqs6fkbygfg9gpcx99lhc2dlalgc-postgresql-15.7-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/sngcqjdypd1bwxz6rs3hwy8jbjb9k690-postgresql-15.7-lib"
+            }
+          ],
+          "store_path": "/nix/store/qvhjnll3n3d1va7rxlh1yd348gqwy4v1-postgresql-15.7"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/y20f3ng0g3qyvxdnrh6pj05a9gg1vhzc-postgresql-15.7",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/i2dxiiwv6a38azq2bacb4mk7ir4bsxk6-postgresql-15.7-man",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/4qnj6h95q6akmag8risjilrw5h7vxw8y-postgresql-15.7-debug"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/bwfx3pfc2s5hjwjzq581i0f70y7fbs8s-postgresql-15.7-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/3hd8s5jhwqcxz8h8i57w8n7ka85k4g4x-postgresql-15.7-lib"
+            }
+          ],
+          "store_path": "/nix/store/y20f3ng0g3qyvxdnrh6pj05a9gg1vhzc-postgresql-15.7"
+        }
+      }
+    }
+  }
+}
